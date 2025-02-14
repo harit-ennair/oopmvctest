@@ -1,6 +1,6 @@
 <?php
-require_once "database.php";
-require_once "user.php";
+require_once "../database.php";
+require_once "../models/user.php";
 
 
 if (isset($_POST["submit"])) {
@@ -10,4 +10,4 @@ if (isset($_POST["submit"])) {
 }
 
 
-require_once "login-vieu.php";
+require_once "../views/login-view.php";
